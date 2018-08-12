@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		251C7BD9211FEDB60012CB9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251C7BD8211FEDB60012CB9B /* AppDelegate.swift */; };
-		251C7BDB211FEDB60012CB9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251C7BDA211FEDB60012CB9B /* ViewController.swift */; };
 		251C7BDE211FEDB60012CB9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 251C7BDC211FEDB60012CB9B /* Main.storyboard */; };
 		251C7BE0211FEDBD0012CB9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 251C7BDF211FEDBD0012CB9B /* Assets.xcassets */; };
 		251C7BE3211FEDBD0012CB9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 251C7BE1211FEDBD0012CB9B /* LaunchScreen.storyboard */; };
 		251C7BEE211FEDBD0012CB9B /* JsonTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251C7BED211FEDBD0012CB9B /* JsonTestTests.swift */; };
 		251C7BF9211FEDBD0012CB9B /* JsonTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251C7BF8211FEDBD0012CB9B /* JsonTestUITests.swift */; };
+		251C7C07211FEE5A0012CB9B /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251C7C06211FEE5A0012CB9B /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		251C7BD5211FEDB60012CB9B /* JsonTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JsonTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		251C7BD8211FEDB60012CB9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		251C7BDA211FEDB60012CB9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		251C7BDD211FEDB60012CB9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		251C7BDF211FEDBD0012CB9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		251C7BE2211FEDBD0012CB9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		251C7BF4211FEDBD0012CB9B /* JsonTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JsonTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		251C7BF8211FEDBD0012CB9B /* JsonTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonTestUITests.swift; sourceTree = "<group>"; };
 		251C7BFA211FEDBD0012CB9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		251C7C06211FEE5A0012CB9B /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +98,11 @@
 			isa = PBXGroup;
 			children = (
 				251C7BD8211FEDB60012CB9B /* AppDelegate.swift */,
-				251C7BDA211FEDB60012CB9B /* ViewController.swift */,
 				251C7BDC211FEDB60012CB9B /* Main.storyboard */,
 				251C7BDF211FEDBD0012CB9B /* Assets.xcassets */,
 				251C7BE1211FEDBD0012CB9B /* LaunchScreen.storyboard */,
 				251C7BE4211FEDBD0012CB9B /* Info.plist */,
+				251C7C06211FEE5A0012CB9B /* TableViewController.swift */,
 			);
 			path = JsonTest;
 			sourceTree = "<group>";
@@ -256,8 +256,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				251C7BDB211FEDB60012CB9B /* ViewController.swift in Sources */,
 				251C7BD9211FEDB60012CB9B /* AppDelegate.swift in Sources */,
+				251C7C07211FEE5A0012CB9B /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
